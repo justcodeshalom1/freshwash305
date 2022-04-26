@@ -27,7 +27,7 @@ const footer = () => {
         </div>
         <div>
           <i className="fa fa-envelope"></i>
-          <p>freshwah305@gmil.com</p>
+          <p>freshwah305@gmail.com</p>
         </div>
       </div>
       <div className="footer-right col-md-4 col-sm-6">
