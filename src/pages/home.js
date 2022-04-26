@@ -3,11 +3,10 @@ import Announcement from '../components/announcemet'
 import styled from 'styled-components'
 import Footer from '../components/footer'
 import Button from 'react-bootstrap/Button';
-import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-const Heading = styled.h2`
+const Heading = styled.h1`
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -20,46 +19,83 @@ const Heading = styled.h2`
 
 const home = () => {
     return (
-        <>
+      <div className="container-fluid" >
+      <div className="row">
+          <div className="col-md-12">
           <Announcement/>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-12">
           <Navbar/>
-          <Carousel fade className='carousel'>
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src="../IMG_3425 (1).jpg"
-                alt="First slide"
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src="../IMG_0739.jpg"
-                alt="Second slide"
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                src="../IMG_0602.jpg"
-                alt="Third slide"
-                />
-                <Carousel.Caption>
-                </Carousel.Caption>
-            </Carousel.Item>
-            </Carousel>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-12">
+          <Heading>Your car will never look the same!!! Book Now!!!</Heading>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-12">
+          <Heading>Look what we can do!!!</Heading>
+
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-4">
+          <img src="../IMG_0739.jpg" alt='logo' height="275px"/>
+
+          </div>
+          <div className="col-md-4">
+          <img src="../IMG_0602.jpg" alt='logo' height="275px"/>
+
+          </div>
+          <div className="col-md-4">
+          <img src="../image312.jpeg" alt='logo' height="275px"/>
+          </div>
+  
+      </div>
+      <div className="row">
+         
+          <div className="col-md-4">
+          <img src="../image5.jpeg" alt='logo' height="275px"/>
+          </div>
+          <div className="col-md-4">
+          <img src="../image3.jpeg" alt='logo' height="275px"/>
+          </div>
+          <div className="col-md-4">
+          <img src="../image6.jpeg" alt='logo' height="275px"/>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-12">
           <div className='service-button'>
             <Button href="https://booking-fresh-wash-305.zippity.cc/" size="lg">Book Now</Button>
           </div>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-md-12">
           <div>
             <Heading>Caring for your Vehicle is our Business</Heading>
           </div> 
-          <Footer/>
-        </>
+          </div>
+  
+      </div>
+      <div className="row">
+          <div className="col-lg-12">
+              <Footer/>
+          </div>
+  
+      </div>
+  
+  </div>
     )
 }
 
