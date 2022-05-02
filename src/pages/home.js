@@ -40,7 +40,7 @@ const home = () => {
       </div>
       <div className="row">
           <div className="col-md-12">
-          <Heading>Look what we can do!!!</Heading>
+          <Heading>Take a Look at Our Work!!!</Heading>
 
           </div>
   
@@ -55,7 +55,7 @@ const home = () => {
 
           </div>
           <div className="col-md-4">
-          <img src="../image312.jpeg" alt='logo' height="275px"/>
+          <img src="../image00.jpg" alt='logo' height="275px"/>
           </div>
   
       </div>
