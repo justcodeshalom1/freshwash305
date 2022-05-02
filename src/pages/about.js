@@ -12,7 +12,7 @@ const about = () => {
                     <h1 style={{ color: "#8BBEF7" }}>Fresh Wash 305 was founded in March 2021. We are a family owned mobile detail service. Customer service is our top priority. We maintain our business model by staying knowledgable in the car detail industry and provide the best in class products and services. Book with us today and we come to you, home office or anywhere you’d like your detail done.</h1>
                 </div>
                 <div className="col-md-6">
-                     <img src='./freshwash305_SK81aA00a_copy-removebg-preview.png' alt='img' height="325px"/>
+                     <img src='./freshwash305_SK81aA00a_copy-removebg-preview.png' alt='img' height="290px" width="360px"/>
                 </div>
                 </div>
             </div>

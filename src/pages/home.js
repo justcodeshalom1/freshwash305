@@ -55,7 +55,7 @@ const home = () => {
 
           </div>
           <div className="col-md-4">
-          <img src="../image00.jpg" alt='logo' height="275px"/>
+          <img src="../image00.JPG" alt='logo' height="275px"/>
           </div>
   
       </div>
