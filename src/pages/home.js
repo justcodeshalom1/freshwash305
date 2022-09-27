@@ -47,7 +47,7 @@ const home = () => {
       </div>
       <div className="row">
           <div className="col-md-4">
-          <img src="../IMG_0739.jpg" alt='logo' height="275px"/>
+          <img src="../img44.jpg" alt='logo' height="275px" width="233px"/>
 
           </div>
           <div className="col-md-4">
