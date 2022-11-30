@@ -75,7 +75,7 @@ const home = () => {
       <div className="row">
           <div className="col-md-12">
           <div className='service-button'>
-            <Button href="https://booking-fresh-wash-305.zippity.cc/" size="lg">Book Now</Button>
+            <Button href="https://freshwash305llc.fieldd.co/" size="lg">Book Now</Button>
           </div>
           </div>
   
