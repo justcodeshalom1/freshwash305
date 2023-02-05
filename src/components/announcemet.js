@@ -14,7 +14,7 @@ const Container = styled.div`
 const announcemet = () => {
     return (
         <Container>
-            15% New Customer Discount
+            10% New Customer Discount
         </Container>
     )
 }
